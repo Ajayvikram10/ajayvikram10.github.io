@@ -1122,13 +1122,10 @@ img {
 .carousel-inner > .item > img,
 .carousel-inner > .item > a > img {
   display: block;
-  /*max-height: 200px !important;*/
-  /*max-width: 200px !important;*/
   height: auto;
 }
 
 .img-responsive, .img-centered{
-    /*max-height: 200px !important;*/
     max-width: 200px !important;
 }
 .img-rounded {
