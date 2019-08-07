@@ -1127,8 +1127,8 @@ img {
   height: auto;
 }
 
-.img-responsive{
-    max-height: 200px !important;
+.img-responsive, .img-centered{
+    /*max-height: 200px !important;*/
     max-width: 200px !important;
 }
 .img-rounded {
