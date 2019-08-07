@@ -130,7 +130,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .navbar-default .navbar-toggle {
-    color: #fff,
+    color: #fff;
     background-color: #7a7a7a;
     border-color: #7a7a7a
 }
@@ -200,7 +200,7 @@ h1, h2, h3, h4, h5, h6 {
 
 header {
     background-image: url(../img/header-bg.jpg);
-    background-repeat: none;
+    /*background-repeat: none;*/
     background-attachment: scroll;
     background-position: center center;
     -webkit-background-size: cover;
@@ -787,11 +787,6 @@ img::selection {
 
 img::-moz-selection {
     background: 0 0
-}
-
-img-responsive{
-    max-height: 200px;
-    max-width: 200px;
 }
 
 body {
