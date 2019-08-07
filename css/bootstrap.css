@@ -1116,15 +1116,20 @@ figure {
 img {
   vertical-align: middle;
 }
-.img-responsive,
+
 .thumbnail > img,
 .thumbnail a > img,
 .carousel-inner > .item > img,
 .carousel-inner > .item > a > img {
   display: block;
-  max-height: 200px !important;
-  max-width: 200px !important;
+  /*max-height: 200px !important;*/
+  /*max-width: 200px !important;*/
   height: auto;
+}
+
+.img-responsive{
+    max-height: 200px !important;
+    max-width: 200px !important;
 }
 .img-rounded {
   border-radius: 6px;
